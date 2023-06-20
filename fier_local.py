@@ -598,7 +598,7 @@ def sel_best_fit(fit_dict: dict, metric: str = "r",ranking: str = "max") -> tupl
     if ranking == "max":
         ranker = -1
         ranking_f = max_ranking
-    elif rankin == "min":
+    elif ranking == "min":
         ranker = 999
         ranking_f = min_ranking
     else:
